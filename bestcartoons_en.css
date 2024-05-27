@@ -1,0 +1,100 @@
+header{
+    background-color: #54f4ffe0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+
+.language-switcher {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-switcher li {
+    margin-right: 10px;
+}
+
+table {
+    font-family: Calibri;
+    font-size: 24px;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5px;
+    color:white
+}
+
+tr {
+    background-color: #000000;
+}
+
+.collapsible{
+    background-color: #777;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: rgb(255, 255, 255);
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+}
+
+.active, .collapsible:hover{
+    background-color: #535353;
+}
+
+.collapsible:after{
+    content: '\002B';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after{
+    content: "\2212";
+}
+
+.content{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #000000;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: #54f4ffe0;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
