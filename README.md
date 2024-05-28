@@ -1,2 +1,1 @@
-# Personal-Website
-Website pribadi hanya untuk iseng aja (just for fun).
+Website masih belum sempurna, masih ada yang harus ditambah.
